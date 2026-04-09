@@ -28,7 +28,7 @@ termo_busca = st.text_input(
 
 campos_input = st.text_input(
     "Campos para retorno (separados por virgula)",
-    value="dialogId,message_type,time",
+    value="",
 )
 
 gerar = st.button("Generate CSV")
